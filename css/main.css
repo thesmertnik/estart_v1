@@ -472,7 +472,7 @@ span .estart-by:first-letter{
   height: 500px;
   min-width: 330px;
   width: calc(33% - 23px);
-  background: rgba(238, 238, 238, 0.53);
+  background: rgba(0, 0, 0, 0.72);
   border-radius: 10px;
 }
 .img{
