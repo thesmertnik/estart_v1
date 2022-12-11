@@ -460,6 +460,16 @@ span .estart-by:first-letter{
   min-height: 100vh;
   height: auto;
 }
+.why_we{
+  max-width: 600px;
+  width: auto;
+  font-size: 56px;
+}
+@media  screen and (max-width: 600px) {
+  .why_we{
+    font-size: 34px;
+  }
+}
 .container_why{
   display: flex;
   flex-flow: row wrap;
@@ -472,7 +482,7 @@ span .estart-by:first-letter{
   height: 500px;
   min-width: 330px;
   width: calc(33% - 23px);
-  background: rgba(0, 0, 0, 0.72);
+  background: rgba(0, 0, 0, 0.75);
   border-radius: 10px;
 }
 .img{
