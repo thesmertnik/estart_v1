@@ -4,9 +4,3 @@
 User-agent: *
 Disallow:
 404.shtml
-site.webmanifest
-.editorconfig
-.cpanel.yml
-.gitignore
-humans.txt
-browserconfig.xml
