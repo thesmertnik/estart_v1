@@ -54,8 +54,8 @@
 </head>
 
 <body>
-  <h1>Page Not Found</h1>
-  <p>Sorry, but the page you were trying to view does not exist.</p>
+  <h1>Страница не найдена</h1>
+  <p>Кажется что-то пошло не так, <a href="index.html" style="text-decoration: none; color: #ff0000;">Вернуться на главную</a></p>
 </body>
 
 </html>
