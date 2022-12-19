@@ -1,16 +1,16 @@
 {
   "short_name": "estart",
-  "name": "estart.by",
+  "name": "estart.pro",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",
     "sizes": "192x192"
   }],
-  "start_url": "https://estart.smertnik.site/index.html",
+  "start_url": "https://estart.pro/index.html",
   "background_color": "#fafafa",
   "theme_color": "#fafafa",
 
- "scope": "https://estart.smertnik.site/",
+ "scope": "https://estart.pro/",
  "yandex": {
  "manifest_version": 1,
  "app_version": "1.0.0",
