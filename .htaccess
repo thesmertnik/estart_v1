@@ -375,7 +375,6 @@ AddDefaultCharset utf-8
     RewriteRule ^ - [E=PROTO:https]
     RewriteCond %{HTTPS} !=on
     RewriteRule ^ - [E=PROTO:https]
-
     # (2)
     # RewriteCond %{HTTPS} !=on
 
