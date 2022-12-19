@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export REPOPATH=/home/estartby/repositories/estart_v1/*
+    - export REPOPATH=/home/estartby/repositories/estart_v_0.1/*
     - export SITEPATH=/home/estartby/estart.pro/
     - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
