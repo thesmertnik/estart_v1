@@ -1,126 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Services</title>
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="https://estart.pro/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <meta name="theme-color" content="#fafafa">
+
+  <title>Услуги </title>
+
+  <link rel="stylesheet" href="../css/pages/services.css">
+
 </head>
 <body>
-<section class="et-hero-tabs">
-  <h1>Услуги</h1>
-  <h3><a href="../index.html" class="link">Главная</a> / <a>Услуги</a></h3>
-  <div class="et-hero-tabs-container">
-    <a class="et-hero-tab" href="#tab-es6">ES6</a>
-    <a class="et-hero-tab" href="#tab-flexbox">Flexbox</a>
-    <a class="et-hero-tab" href="#tab-react">React</a>
-    <a class="et-hero-tab" href="#tab-angular">Angular</a>
-    <a class="et-hero-tab" href="#tab-other">Other</a>
-    <span class="et-hero-tab-slider"></span>
+<header class = "header">
+  <div class="container header__container">
+    <div class="menu-burger__header">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav class="header__nav">
+      <ul class="menu header__menu">
+        <li><a href="../technical_works.html" class="menu__item">Наши работы</a></li>
+        <li><a href="../technical_works.html" class="menu__item">Услуги</a></li>
+        <!--<li><a href="../technical_works.html" class="menu__item">Акции</a></li>-->
+        <li><a href="../technical_works.html" class="menu__item">Новинки</a></li>
+        <li><a href="" class="menu__item"></a></li>
+        <li><a href="" class="menu__item"></a></li>
+      </ul>
+    </nav>
   </div>
-</section>
+</header>
+<div class="main_container_of_block">
+  <div class="main_block">
+    <p>
+      <a href="index.html">Главная / </a>
+      Услуги
+    </p>
+  </div>
+  <div class="services_block">
+    <div class="first_block block">
+      <h2>Ремонт генератора</h2>
+    </div>
 
-<main class="et-main">
-  <section class="et-slide" id="tab-es6">
-    <h1>ES6</h1>
-    <h3>something about es6</h3>
-  </section>
-  <section class="et-slide" id="tab-flexbox">
-    <h1>Flexbox</h1>
-    <h3>something about flexbox</h3>
-  </section>
-  <section class="et-slide" id="tab-react">
-    <h1>React</h1>
-    <h3>something about react</h3>
-  </section>
-  <section class="et-slide" id="tab-angular">
-    <h1>Angular</h1>
-    <h3>something about angular</h3>
-  </section>
-  <section class="et-slide" id="tab-other">
-    <h1>Other</h1>
-    <h3>something about other</h3>
-  </section>
-</main>
+    <div class="first_block block">
+      <h2>Ремонт генератора</h2>
+    </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="../js/vendor/modernizr-3.11.2.min.js"></script>
-<script>
+    <div class="first_block block">
+      <h2>Ремонт генератора</h2>
+    </div>
 
-  class StickyNavigation {
+    <div class="first_block block">
+      <h2>Ремонт генератора</h2>
+    </div>
 
-    constructor() {
-      this.currentId = null;
-      this.currentTab = null;
-      this.tabContainerHeight = 70;
-      let self = this;
-      $('.et-hero-tab').click(function() {
-        self.onTabClick(event, $(this));
-      });
-      $(window).scroll(() => { this.onScroll(); });
-      $(window).resize(() => { this.onResize(); });
-    }
+    <div class="first_block block">
+      <h2>Ремонт генератора</h2>
+    </div>
 
-    onTabClick(event, element) {
-      event.preventDefault();
-      let scrollTop = $(element.attr('href')).offset().top - this.tabContainerHeight + 1;
-      $('html, body').animate({ scrollTop: scrollTop }, 600);
-    }
+    <div class="first_block block">
+      <h2>Ремонт генератора</h2>
+    </div>
 
-    onScroll() {
-      this.checkTabContainerPosition();
-      this.findCurrentTabSelector();
-    }
+    <div class="first_block block">
+      <h2>Ремонт генератора</h2>
+    </div>
+  </div>
+</div>
 
-    onResize() {
-      if(this.currentId) {
-        this.setSliderCss();
-      }
-    }
+<div class="container_services">
 
-    checkTabContainerPosition() {
-      let offset = $('.et-hero-tabs').offset().top + $('.et-hero-tabs').height() - this.tabContainerHeight;
-      if($(window).scrollTop() > offset) {
-        $('.et-hero-tabs-container').addClass('et-hero-tabs-container--top');
-      }
-      else {
-        $('.et-hero-tabs-container').removeClass('et-hero-tabs-container--top');
-      }
-    }
+</div>
 
-    findCurrentTabSelector(element) {
-      let newCurrentId;
-      let newCurrentTab;
-      let self = this;
-      $('.et-hero-tab').each(function() {
-        let id = $(this).attr('href');
-        let offsetTop = $(id).offset().top - self.tabContainerHeight;
-        let offsetBottom = $(id).offset().top + $(id).height() - self.tabContainerHeight;
-        if($(window).scrollTop() > offsetTop && $(window).scrollTop() < offsetBottom) {
-          newCurrentId = id;
-          newCurrentTab = $(this);
-        }
-      });
-      if(this.currentId != newCurrentId || this.currentId === null) {
-        this.currentId = newCurrentId;
-        this.currentTab = newCurrentTab;
-        this.setSliderCss();
-      }
-    }
 
-    setSliderCss() {
-      let width = 0;
-      let left = 0;
-      if(this.currentTab) {
-        width = this.currentTab.css('width');
-        left = this.currentTab.offset().left;
-      }
-      $('.et-hero-tab-slider').css('width', width);
-      $('.et-hero-tab-slider').css('left', left);
-    }
 
-  }
 
-  new StickyNavigation();
 
-</script>
+
+<a href="#" id="toTop">
+  <svg width="10pt" height="10pt" viewBox="0 0 630 630" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g>
+      <g>
+        <path d="M489.229,442.468L254.563,37.135c-3.797-6.592-14.677-6.592-18.453,0L1.443,442.468c-1.92,3.307-1.92,7.36-0.021,10.667
+			c1.92,3.307,5.44,5.333,9.259,5.333h469.333c3.819,0,7.339-2.027,9.259-5.333C491.128,449.849,491.128,445.775,489.229,442.468z"/>
+      </g>
+    </g>
+  </svg>
+</a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>

@@ -4,11 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b90ac6d-5efd-4031-abee-82f520bf7211" name="Changes" comment="v.0.0.1" />
+    <list default="true" id="3b90ac6d-5efd-4031-abee-82f520bf7211" name="Changes" comment="v.0.0.1">
+      <change afterPath="$PROJECT_DIR$/css/pages/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/pages/services.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estart.pro.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estart.pro.csr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estart.pro.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estart.pro.pub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/PhototForPages/TOOLS.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/PhototForPages/TOOLS.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/PhototForPages/tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/car/audi_q5_2009_generator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/car/audi_q5_2009_generator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/car/henday_santafe_2007_2.0_diesel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/car/mersedes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/car/mersedes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/car/nissan_murano_2008_generator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/car/nissan_murano_2008_generator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/car/toyota_siena_2010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/car/toyota_siena_2010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/gif/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/TechnicalWorks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/EstartYandexMap.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/a1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/car_repair.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/checkmark-done.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/guarantee.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/location.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/logo.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/map-pin.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/mts.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/phone.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/provodka.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/spare_part.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/time-left.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/viesd_car_repair.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_webp/wiring.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/photo_description/estart_logo_for_google_ads.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/photo_description/logo (1) (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/photo_description/logo (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/photo_description/logo_for_zamitie_nomera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/UpMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/metrika.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/our_works.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical_works.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gifs/location.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,23 +81,31 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2J8zWQzmoLkqNvEOrf35j8Jh3ef" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.laravel-idea.search-composer-json&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,7 +114,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671474532716</updated>
-      <workItem from="1671474534759" duration="3383000" />
+      <workItem from="1671474534759" duration="4728000" />
+      <workItem from="1671558646902" duration="4658000" />
+      <workItem from="1671638692347" duration="6948000" />
+      <workItem from="1671804427936" duration="1428000" />
+      <workItem from="1671806392157" duration="16000" />
+      <workItem from="1671898216215" duration="3597000" />
+      <workItem from="1672060236053" duration="708000" />
+      <workItem from="1672063654692" duration="104000" />
+      <workItem from="1672063773826" duration="4353000" />
+      <workItem from="1672081860472" duration="1455000" />
+      <workItem from="1672156481250" duration="2222000" />
     </task>
     <task id="LOCAL-00001" summary="v.0.0.1">
       <created>1671474803444</created>
@@ -114,13 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671477735734</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="v.0.0.1">
+      <created>1671477998395</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671477998395</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="v.0.0.1" />
     <option name="LAST_COMMIT_MESSAGE" value="v.0.0.1" />
   </component>

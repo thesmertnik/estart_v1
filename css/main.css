@@ -261,6 +261,8 @@ textarea {
   }
 }
 
+
+
 /* СКЕЛЕТ ВСЕГО САЙТА */
 body {
   font-family: "Century Gothic", "Lato", sans-serif;
@@ -392,7 +394,7 @@ a {
 .block {
   margin: 10px;
   height: 300px;
-  min-width: 280px;
+  min-width: 250px;
   width: calc(33% - 23px);
   background: #eeeeee;
   border-radius: 10px;
@@ -417,7 +419,139 @@ a {
   padding: 15px;
 }
 
+/* Второе меню */
+.header__nav a {
+  color: #242e31;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  margin: 0 auto;
+  font-size: 14pt;
+}
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  height:80px;
+  background: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+  display: flex;
+  padding: 5px 0;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  align-self: center;
+}
 
+.header__nav {
+  position: absolute;
+  right: 36px;
+  display: block;
+}
+.header__menu {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  padding-right: 110px;
+}
+.header__menu li {
+  
+  list-style: none;
+  margin: -30px 0px 0px 20px;
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@media(max-width: 767px){
+  .header__nav {
+    display: block;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    background: rgb(245, 246, 246);
+    box-shadow: #231e1e;
+    width: 100%;
+    min-height: 100vh;;
+    box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.37);
+    transition: all 0.4s ease;
+    left:-100%;
+  }
+  .header__menu {
+    display: block;
+  }
+  .header__nav.open-menu{
+    left:0;
+  }
+  .header__menu li {
+    margin: 40px 0px 0px 33px;
+    font-size: 14px;
+  }
+  .menu-burger__header {
+    position: relative;
+    width: 40px;
+    height: 35px;
+    display: block;
+    margin-left: 10px;
+  }
+  .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    background: #ff0000;
+    margin: 0 auto;
+  }
+  .menu-burger__header span{
+    top: 16px;
+  }
+  .menu-burger__header:after, .menu-burger__header:before{
+    content: '';
+  }
+  .menu-burger__header:after{
+    bottom: 5px;
+  }
+  .menu-burger__header:before{
+    top: 5px;
+  }
+  .menu-burger__header.open-menu span {
+    opacity:0;
+    transition: 0.5s;
+  }
+  .menu-burger__header.open-menu:before {
+    transform: rotate(38deg);
+    top: 16px;
+    transition: 0.4s;
+  }
+  .menu-burger__header.open-menu:after {
+    transform: rotate(-38deg);
+    bottom: 16px;
+    transition: 0.4s;
+  }
+
+  header {
+    height: 45px;
+  }
+  .content-wrapper {
+    margin-top: 48px;
+  }
+  .fixed-pade {
+    overflow: hidden;
+  }
+
+
+}
+#popular_services{
+  margin-top: 20px;
+}
+#popular_services_hr{
+  background-color: #ff0000;
+  color: #ff0000;
+  max-width: 100px;
+  height: 2px;
+}
 /*  О нас */
 #tab-flexbox{
   background-color: #ffffff;
@@ -480,7 +614,7 @@ span .estart-by:first-letter{
 .why{
   margin: 10px;
   height: 500px;
-  min-width: 330px;
+  min-width: 300px;
   width: calc(33% - 23px);
   background: rgba(0, 0, 0, 0.75);
   border-radius: 10px;
@@ -584,6 +718,7 @@ table th {
 /* FOOTER */
 #tab-other{
   background-color: #cccccc;
+  flex-flow: row wrap;
 }
 .location hr{
   background-color: red;
@@ -613,5 +748,54 @@ iframe{
 .map a{
   color: #eeeeee;
 }
+.estart_map{
+  min-width: 300px;
+  min-height: 300px;
+  width: auto;
+  height: auto;
+  padding-top: 50px;
+}
 
 
+/* Кнопка подъема наверх */
+#toTop {
+  position: fixed;
+  display: inline-block;
+  bottom: 30px;
+  right: -40px;
+  width: 40px;
+  height: 40px;
+  z-index: 1000;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  background: #ff0000;
+  box-shadow: 0 0 0 3px rgba(0,0,0,.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in-out;
+}
+#toTop:hover {
+  background: #640000;
+}
+
+#toTop svg {
+  position: relative;
+  top: 8px;
+  right: -1px;
+  fill: #fff;
+  transition: all .3s ease-in-out;
+}
+
+#toTop:hover svg {
+  cursor: pointer;
+  fill: #fff;
+  transition: all .3s ease-in-out;
+}
+
+#toTop.show {
+  opacity: 1;
+  visibility: visible;
+  right: calc(2%);
+}

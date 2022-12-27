@@ -4,3 +4,4 @@
 User-agent: *
 Disallow:
 404.shtml
+technical_works.html
