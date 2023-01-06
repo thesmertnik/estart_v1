@@ -4,29 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b90ac6d-5efd-4031-abee-82f520bf7211" name="Changes" comment="v.0.0.2">
-      <change afterPath="$PROJECT_DIR$/css/articles/alternator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/page_constructor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/pages/contacts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/services/alternator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/services/alternator.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/services/brakes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/services/diagnostics.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/services/oil.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/services/starter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/services/wiring.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/articles/alternator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/page_constructor.html" afterDir="false" />
+    <list default="true" id="3b90ac6d-5efd-4031-abee-82f520bf7211" name="Changes" comment="v.0.0.3.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/services.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/our_works.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/our_works.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/remont_generatora.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +80,8 @@
       <workItem from="1672757189985" duration="1037000" />
       <workItem from="1672758263010" duration="7954000" />
       <workItem from="1672777403749" duration="4454000" />
+      <workItem from="1673012794235" duration="651000" />
+      <workItem from="1673014569472" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="v.0.0.1">
       <created>1671474803444</created>
@@ -199,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672160628383</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="v.0.0.3.1">
+      <created>1673012838185</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673012838185</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +198,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="v.0.0.1" />
     <MESSAGE value="v.0.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.0.0.2" />
+    <MESSAGE value="v.0.0.3.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.0.0.3.1" />
   </component>
 </project>
