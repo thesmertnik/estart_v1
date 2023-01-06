@@ -245,7 +245,10 @@ a{
 }
 
 
-
+p{
+  font-family: "Century Gothic",  sans-serif;
+  font-weight: 400;
+}
 
 
 

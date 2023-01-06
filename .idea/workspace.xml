@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b90ac6d-5efd-4031-abee-82f520bf7211" name="Changes" comment="v.0.0.3.1">
+      <change afterPath="$PROJECT_DIR$/img/car/viesd_ car_repair_toyota.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/car/viesd_car_repair.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/contacts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/pages/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/our_works.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/our_works.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +58,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -83,6 +88,9 @@
       <workItem from="1672777403749" duration="4454000" />
       <workItem from="1673012794235" duration="651000" />
       <workItem from="1673014569472" duration="1355000" />
+      <workItem from="1673023140271" duration="159000" />
+      <workItem from="1673023314642" duration="642000" />
+      <workItem from="1673032447848" duration="1654000" />
     </task>
     <task id="LOCAL-00001" summary="v.0.0.1">
       <created>1671474803444</created>

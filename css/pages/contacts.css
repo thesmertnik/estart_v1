@@ -431,7 +431,10 @@ header {
   font-weight: 400;
   text-decoration: underline;
 }
-
+a{
+  text-decoration: none;
+  font-family: "Century Gothic", "Lato", sans-serif;
+}
 .location hr{
   background-color: red;
   height: 2px;
