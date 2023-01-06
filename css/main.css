@@ -457,7 +457,7 @@ header {
   padding-right: 110px;
 }
 .header__menu li {
-  
+
   list-style: none;
   margin: -30px 0px 0px 20px;
   color: #000;
@@ -555,6 +555,8 @@ header {
 /*  О нас */
 #tab-flexbox{
   background-color: #ffffff;
+  min-height: 100vh;
+  height: auto;
 }
 #tab-flexbox h2:first-letter{
   color: #e13a14;
@@ -577,6 +579,22 @@ header {
 }
 span .estart-by:first-letter{
   color: #e13a14;
+}
+.about_estart img{
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  -webkit-align-self: center;
+}
+
+.about_estart p{
+  text-align: justify;
+  font-family: 'JetBrains Mono ExtraBold', sans-serif;
+  font-weight: 300;
+  width: 100%;
+  letter-spacing: 0;
+  font-size: 14pt;
+  margin: 10px;
 }
 
 
@@ -719,6 +737,8 @@ table th {
 #tab-other{
   background-color: #cccccc;
   flex-flow: row wrap;
+  min-height: 100vh;
+  height: auto;
 }
 .location hr{
   background-color: red;
