@@ -513,7 +513,11 @@ header {
   margin: 20px;
 }
 .item h2{
-  margin: 20px;
+  margin: 10px;
+}
+.item a{
+  color: #ff0000;
+  margin: 10px;
 }
 .img{
   margin: 10px auto;

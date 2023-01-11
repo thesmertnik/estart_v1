@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b90ac6d-5efd-4031-abee-82f520bf7211" name="Changes" comment="v.0.0.3.2">
+    <list default="true" id="3b90ac6d-5efd-4031-abee-82f520bf7211" name="Changes" comment="v.0.0.3.3">
+      <change afterPath="$PROJECT_DIR$/css/articles/starter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/SofiaSansSemiCondensed-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/articles/photo_starter_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/articles/photo_starters.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/articles/starter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/articles/alternator.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/articles/alternator.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/pages/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/articles/alternator.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/articles/alternator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/our_works.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/our_works.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -85,7 +95,11 @@
       <workItem from="1673014569472" duration="1355000" />
       <workItem from="1673023140271" duration="159000" />
       <workItem from="1673023314642" duration="642000" />
-      <workItem from="1673032447848" duration="2515000" />
+      <workItem from="1673032447848" duration="4377000" />
+      <workItem from="1673273021250" duration="4062000" />
+      <workItem from="1673279151859" duration="3405000" />
+      <workItem from="1673283174040" duration="1195000" />
+      <workItem from="1673292042457" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="v.0.0.1">
       <created>1671474803444</created>
@@ -206,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673034468219</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="v.0.0.3.3">
+      <created>1673035295941</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673035295941</updated>
+    </task>
+    <task id="LOCAL-00019" summary="v.0.0.3.3">
+      <created>1673035772123</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673035772123</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +246,7 @@
     <MESSAGE value="v.0.0.2" />
     <MESSAGE value="v.0.0.3.1" />
     <MESSAGE value="v.0.0.3.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.0.0.3.2" />
+    <MESSAGE value="v.0.0.3.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.0.0.3.3" />
   </component>
 </project>

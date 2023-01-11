@@ -1,8 +1,3 @@
-
-
-
-
-
 /* Верхнее меню */
 .header__nav a {
   color: #242e31;
@@ -18,7 +13,7 @@
   top: 0;
   left: 0;
   z-index: 20;
-  height:80px;
+  height:55px;
   background: #fff;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
   display: flex;
@@ -57,7 +52,8 @@
     top: 75px;
     background: rgb(245, 246, 246);
     width: 100%;
-    min-height: 100vh;;
+    min-height: 100vh;
+    height: auto;
     box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.37);
     transition: all 0.4s ease;
     left:-100%;
@@ -136,16 +132,16 @@
   z-index: 1000;
   cursor: pointer;
   text-align: center;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.24);
   border-radius: 4px;
-  background: #ff0000;
-  box-shadow: 0 0 0 3px rgba(0,0,0,.2);
+  background: rgba(255, 0, 0, 0.13);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.06);
   opacity: 0;
   visibility: hidden;
   transition: all .3s ease-in-out;
 }
 #toTop:hover {
-  background: #640000;
+  background: rgba(100, 0, 0, 0.25);
 }
 
 #toTop svg {
@@ -158,7 +154,7 @@
 
 #toTop:hover svg {
   cursor: pointer;
-  fill: #fff;
+  fill: rgba(255, 255, 255, 0.36);
   transition: all .3s ease-in-out;
 }
 
@@ -171,7 +167,7 @@
 
 
 .nav{
-  padding-top: 150px;
+  padding-top: 100px;
 }
 .nav p{
   padding-left: 40px;
@@ -184,74 +180,60 @@
   font-weight: 400;
   text-decoration: underline;
 }
-
-*{
-  margin: 0;
+.article{
+  margin: 15px;
+  text-align: justify;
 }
-a{
-  text-decoration: none;
-}
-
-.main_block{
-  margin: 125px;
-}
-.main_block a{
-  font-size: 18pt;
-  font-weight: 1000;
-}
-
-/* Блок с карточками описаний работ */
-.container_of_block h1{
-  text-align: center;
+@media screen and (min-width: 1000px) {
+  .article{
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 80vw;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+  }
 
 }
-.block_of_cards{
-  position: absolute;
-  min-width: 100vw;
-  min-height: 100vh;
+.article p{
+  margin: 12px;
+  font-size: 14pt;
+  font-weight: 400;
+
+  font-family: 'SofiaSansSemi';
+  line-height: 1.7 ;
+}
+
+img{
+  max-width: 80vw;
+  max-height: 100vh;
   width: auto;
   height: auto;
-  background-color: rgba(153, 153, 153, 0.62);
   align-items: center;
-  justify-content: center;
-  align-self: center;
-  display: flex;
-  flex-flow: row wrap;
-  flex: 1 1 auto;
-}
-.card {
-  margin: 5px;
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
-  transition: 0.3s;
-  min-width: 80px;
-  max-width: 350px;
-  max-height: 300px;
-  height: auto;
-  background-color: rgba(0, 0, 0, 0.74);
-  border-radius: 4px;
-  color: white;
-}
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 0.82);
-}
-.container_text {
-  padding: 8px 16px;
-}
-.card img{
-  border-radius: 4px;
-  max-width: 350px;
-  max-height: 220px;
-
+  margin: 0 auto;
 }
 
-p{
-  font-family: "Century Gothic",  sans-serif;
-  font-weight: 400;
+.article img{
+  margin: 0 auto;
 }
 
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
 
-
-
-
-/* FOOTER */
+body{
+  background-color: rgba(234, 234, 234, 0.62);
+}
+@font-face {
+  font-family: 'SofiaSansSemi';
+  src: url('../../fonts/SofiaSansSemiCondensed-VariableFont_wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 

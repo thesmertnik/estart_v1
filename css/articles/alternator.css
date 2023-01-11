@@ -189,3 +189,18 @@
   font-size: 14pt;
   font-weight: 400;
 }
+body{
+  background-color: rgba(234, 234, 234, 0.62);
+}
+@media screen and (min-width: 1000px) {
+  .article{
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 80vw;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+  }
+
+}
