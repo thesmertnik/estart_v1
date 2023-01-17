@@ -1,12 +1,14 @@
 {
-  "short_name": "estart",
+  "short_name": "Estart",
   "name": "estart.pro",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",
     "sizes": "192x192"
   }],
-  "start_url": "https://estart.pro/index.html",
+  "start_url": "/",
+  "lang": "ru",
+  "display": "standalone",
   "background_color": "#fafafa",
   "theme_color": "#fafafa",
 
@@ -16,8 +18,9 @@
  "app_version": "1.0.0",
  "cache": {
  "resources": [
+ "index.html",
  "css/main.css",
  "js/main.js",
  "icon.png",
- ]
-
+ "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js",
+ "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"]}}}

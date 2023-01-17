@@ -4,19 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b90ac6d-5efd-4031-abee-82f520bf7211" name="Changes" comment="v.0.0.3.3">
-      <change afterPath="$PROJECT_DIR$/css/articles/starter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/SofiaSansSemiCondensed-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/articles/photo_starter_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/articles/photo_starters.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/articles/starter.html" afterDir="false" />
+    <list default="true" id="3b90ac6d-5efd-4031-abee-82f520bf7211" name="Changes" comment="v.0.0.4.1">
+      <change afterPath="$PROJECT_DIR$/BETA/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/services/field_repair.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goaway.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/field_repair.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/field_repair_e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/vorota_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/about_us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/services/field_repair.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/articles/alternator.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/articles/alternator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BETA/js/first.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/about_us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/pages/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/articles/alternator.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/articles/alternator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/our_works.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/our_works.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/page_constructor.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page_constructor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +38,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
+        <option value="tsconfig.json" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,6 +67,7 @@
     &quot;RunOnceActivity.laravel-idea.search-composer-json&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/eyeof/WebstormProjects/estart_v1&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -68,6 +78,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\eyeof\WebstormProjects\estart_v1" />
+      <recent name="C:\Users\eyeof\WebstormProjects\estart_v1\BETA" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -100,6 +116,14 @@
       <workItem from="1673279151859" duration="3405000" />
       <workItem from="1673283174040" duration="1195000" />
       <workItem from="1673292042457" duration="608000" />
+      <workItem from="1673451213460" duration="4762000" />
+      <workItem from="1673535976260" duration="1913000" />
+      <workItem from="1673641385988" duration="3000" />
+      <workItem from="1673780761412" duration="1568000" />
+      <workItem from="1673869701480" duration="134000" />
+      <workItem from="1673869849571" duration="638000" />
+      <workItem from="1673879414220" duration="8422000" />
+      <workItem from="1673971216475" duration="7804000" />
     </task>
     <task id="LOCAL-00001" summary="v.0.0.1">
       <created>1671474803444</created>
@@ -234,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673035772123</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="v.0.0.4.1">
+      <created>1673451307708</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673451307708</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +278,7 @@
     <MESSAGE value="v.0.0.3.1" />
     <MESSAGE value="v.0.0.3.2" />
     <MESSAGE value="v.0.0.3.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.0.0.3.3" />
+    <MESSAGE value="v.0.0.4.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.0.0.4.1" />
   </component>
 </project>

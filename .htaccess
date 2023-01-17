@@ -96,6 +96,12 @@
 
 ErrorDocument 404 /404.shtml
 
+Options -Indexes
+ErrorDocument 403 /goaway.html
+
+
+RewriteEngine On
+ErrorDocument 403 https://www.estart.pro/
 # ----------------------------------------------------------------------
 # | Error prevention                                                   |
 # ----------------------------------------------------------------------

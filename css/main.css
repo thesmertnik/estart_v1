@@ -393,18 +393,68 @@ a {
 }
 .block {
   margin: 10px;
-  height: 300px;
-  min-width: 250px;
-  width: calc(33% - 23px);
-  background: #eeeeee;
+  min-height: 400px;
+  height: auto;
+  min-width: 320px;
+  width: calc(43% - 13px);
+  background: #3F3F3F;
   border-radius: 10px;
+  color: #FFFFFF;
 }
-.block img{
-  margin: 15px;
+
+.block .img{
+  margin: 35px auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.block .img_repair{
+   background-image: url("../img/services/field_repair.jpg");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+ }
+.block .img_sto{
+  background-image: url("../img/services/vorota_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.block .img_pc{
+  background-image: url("../img/services/diagnostics.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.block .img_electrics{
+  background-image: url("../img/services/wiring.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .block h2{
-  margin: 5px;
+  margin: 8px;
 }
+.block p{
+  margin: 0 45px 4px;
+  text-align: justify-all;
+  letter-spacing: 1px;
+}
+button{
+  margin: 30px;
+  width: 121px;
+  height: 40px;
+  background-color: #ff0000;
+  border-radius: 17px;
+  border: none;
+}
+button a{
+  font-family: "Myanmar Text";
+  color: #ffffff;
+  font-weight: 600;
+}
+
 .block > .service{
   text-align: center;
   justify-content: center;

@@ -5,16 +5,18 @@
   <title>Ремонт стартера, генератора в Минске</title>
   <meta name="description" content="Сломались на дороге? Не беда! Кампания Estart выедет к вам в любую точку Минска в любое время!">
   <meta name="keywords" content="генератор, стартер, выездной ремонт, сто, ремонт, ремонт авто, ремонт авто в минске,
-  ремонт генератор, ремонт стартер, диагностика, сто минск">
+  ремонт генератор, ремонт стартер, диагностика, сто минск,сто на выезд, выездное сто, автоэлектрика, компьютерная диагностика, ремонт на выезде, минск">
+  <meta name="author" content="SMERTNIK"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="Выездной ремонт авто в Минске">
   <meta property="og:description" content="Выездной ремонт стартера, генератора в Минске">
   <meta property="og:type" content="application/vnd.evolv.ecig.profile">
   <meta property="og:url" content="https://estart.pro">
-  <meta property="og:image" content="">
+  <meta property="og:image" content="image/png">
 
   <link rel="manifest" href="site.webmanifest">
+  <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="icon" href="https://estart.pro/favicon.ico" type="image/x-icon">
 
@@ -25,6 +27,7 @@
 </head>
 
 <body>
+
 <section class="et-hero-tabs">
   <header class = "header">
     <div class="container header__container">
@@ -33,13 +36,12 @@
         <span></span>
         <span></span>
       </div>
-
       <nav class="header__nav">
         <ul class="menu header__menu">
           <li><a href="pages/our_works.html" class="menu__item">Наши работы</a></li>
           <li><a href="pages/services.html" class="menu__item">Услуги</a></li>
           <!--<li><a href="technical_works.html" class="menu__item">Акции</a></li>-->
-          <li><a href="technical_works.html" class="menu__item">Новинки</a></li>
+          <li><a href="pages/contacts.html" class="menu__item">Контакты</a></li>
           <li><a href="technical_works.html" class="menu__item item_1"></a></li>
           <li><a href="technical_works.html" class="menu__item item_2"></a></li>
         </ul>
@@ -63,10 +65,9 @@
     <h2 id="popular_services">Популярные услуги &#128293;</h2>
     <hr id="popular_services_hr">
    <div class="container_service">
-     <div class="block block-1">
-       <span>
-         <img src="img/icon_webp/viesd_car_repair.webp"  alt="выездной ремонт" type="image/webp"/>
-       </span>
+     <div class="block">
+       <div class="img img_repair">
+       </div>
        <h2>Выездной ремонт</h2>
        <div class="service">
          <p>
@@ -74,46 +75,56 @@
            Запуск двигателя, диагностика <br>
            Электрика (частично).
          </p>
+         <!--
+         <button type="button">
+           <a href="#">Подробнее</a>
+         </button> -->
        </div>
      </div>
-     <div class="block block-2">
-       <span>
-       <img src="img/icon_webp/car_repair.webp"  alt="СТО" type="image/webp"/></span>
+     <div class="block">
+       <div class="img img_sto"></div>
        <h2>Стационарный ремонт</h2>
        <div class="service">
          <p>
            Ремонт генератора, стартера. <br>
            Ремонт сигнализации, диагностика, <br>
-           электрика <br>
-
+           электрика... <br>
          </p>
+         <!--
+         <button type="button">
+           <a href="#">Подробнее</a>
+         </button> -->
        </div>
      </div>
-     <div class="block block-3">
-       <span>
-       <img src="img/icon_webp/provodka.webp" alt="Диагностика" type="image/webp"/>
-       </span>
+     <div class="block">
+       <div class="img img_pc"></div>
        <h2>Диагностика</h2>
        <div class="service">
          <p>
            Компьютерная диагностика систем автомобиля.<br>
            Компьютерная диагностика двигателя.<br>
-           Диагностика электрооборудования. <br>
+           Диагностика... <br>
          </p>
+         <!--
+         <button type="button">
+           <a href="#">Подробнее</a>
+         </button> -->
        </div>
      </div>
-     <div class="block block-4">
-       <span>
-       <img src="img/icon_webp/wiring.webp" alt="Автоэлектрика" type="image/webp"/>
-       </span>
+     <div class="block">
+       <div class="img img_electrics"></div>
        <h2>Автоэлеткрика</h2>
        <div class="service">
          <p>
            Ремонт электрики авто <br>
            Ремонт сигнализации <br>
            Ремонт электрических стеклоподъемников <br>
-           Ремонт стеклоочестителей <br>
+           Ремонт стеклоочистителей... <br>
          </p>
+         <!--
+         <button type="button">
+           <a href="#">Подробнее</a>
+         </button> -->
        </div>
      </div>
    </div>
@@ -396,7 +407,6 @@
  <!-- /Yandex.Metrika counter -->
 
 <!-- Google tag (gtag.js) - Google Analytics -->
-
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-67DPMVGSDF">
 </script>
 <script>
@@ -407,13 +417,7 @@
   gtag('config', 'G-67DPMVGSDF');
 </script>
 
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-67DPMVGSDF');
-</script>
 
 </body>
 

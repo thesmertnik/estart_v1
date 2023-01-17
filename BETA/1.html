@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document_1</title>
+</head>
+<body>
+
+
+<script>
+
+
+outer: for (let i = 0; i < 3; i++){
+  for (let j = 0; j < 3; j++){
+    let input = prompt(`Значение на координатах (${i},${j})`, '');
+
+    if (!input) break outer;
+  }
+}
+  alert('Готово!')
+</script>
+
+
+
+
+</body>
+</html>
+
