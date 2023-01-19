@@ -272,16 +272,16 @@ a {
   text-decoration: none;
 }
 .et-hero-tabs{
-  background-image: url("../img/main_fon_Estart.by.jpg");
+  background-image: url("../img/PhototForPages/mainfonestart.webp");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
-  background-size: cover;
 }
 .et-hero-tabs h3{
   color: red;
 }
-.et-hero-tabs,
+
 .et-slide {
   display: flex;
   flex-direction: column;
@@ -292,6 +292,85 @@ a {
   text-align: center;
   padding: 0 2em;
 }
+.et-hero-tabs .title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  padding-left: 80px;
+}
+.et-hero-tabs .title h1{
+  color: #ffffff;
+}
+
+.et-hero-tabs .title > hr{
+  background-color: #ff0000;
+  color: #ff0000;
+  min-width: 180px;
+  max-width: 300px;
+  height: 3px;
+  border: none;
+}
+.et-hero-tabs .title > .button_to_call{
+  color: #FFFFFF;
+  font-family: "Arial Black", sans-serif;
+  letter-spacing: 1px;
+}
+#zatemnenie > span{
+  color: #ff0000;
+}
+#zatemnenie {
+  background: rgba(102, 102, 102, 0.76);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+#okno {
+  width: 270px;
+  height: 250px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  color: #ff0000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  margin: auto;
+  background: rgb(255, 255, 255);
+}
+#okno img{
+  display: block;
+  margin: 25px auto;
+}
+
+#zatemnenie:target {display: block;}
+.close {
+  display: inline-block;
+  border: 0 solid rgba(255, 0, 0, 0.85);
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 0 12px;
+  margin: 30px;
+  text-decoration: none;
+  background: #c02323;
+  font-size: 14pt;
+  cursor:pointer;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.close:hover {background: #712929;}
+
 
 .et-hero-tabs h1:first-letter{
   color: red;
@@ -858,8 +937,6 @@ body {
 }
 /*START*/
 
-
-
 /*nav*/
 .navbar {
   background-color: #333;
@@ -951,25 +1028,25 @@ body {
   background-color: #ffffff;
 }
 .block .img_repair{
-   background-image: url("../img/services/field_repair.jpg");
+   background-image: url("../img/services/field_repair_car.webp");
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
  }
 .block .img_sto{
-  background-image: url("../img/services/vorota_2.jpg");
+  background-image: url("../img/services/vorota_estart.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 .block .img_pc{
-  background-image: url("../img/services/diagnostics.jpg");
+  background-image: url("../img/services/diagnostic.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .block .img_electrics{
-  background-image: url("../img/services/wiring.jpg");
+  background-image: url("../img/services/wiring.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1410,5 +1487,6 @@ iframe{
   visibility: visible;
   right: calc(2%);
 }
+
 
 
