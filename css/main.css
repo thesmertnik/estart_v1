@@ -272,12 +272,12 @@ a {
   text-decoration: none;
 }
 .et-hero-tabs{
-  background-image: url("../img/PhototForPages/mainfonestart.webp") data-bg="/images/image.jpg" data-bg-webp="/images/image.webp";
+  background: url("../img/PhototForPages/mainfonestart_png.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: scroll;
 }
+
 .et-hero-tabs h3{
   color: red;
 }
@@ -1028,25 +1028,25 @@ body {
   background-color: #ffffff;
 }
 .block .img_repair{
-   background-image: url("../img/services/field_repair_car.webp");
+   background-image: url("../img/services/field_repair.jpg");
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
  }
 .block .img_sto{
-  background-image: url("../img/services/vorota_estart.webp");
+  background-image: url("../img/services/vorota_2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 .block .img_pc{
-  background-image: url("../img/services/diagnostic.webp");
+  background-image: url("../img/services/diagnostics.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .block .img_electrics{
-  background-image: url("../img/services/wiring.webp");
+  background-image: url("../img/services/wiring.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
