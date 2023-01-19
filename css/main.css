@@ -277,11 +277,9 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
 }
-
 .et-hero-tabs h3{
   color: red;
 }
-
 .et-slide {
   display: flex;
   flex-direction: column;
