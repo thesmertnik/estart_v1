@@ -1,8 +1,7 @@
 User-agent: *
-Disallow:
-404.shtml
-pages/technical_works.html
-pages/page_constructor.html
-css/page_constructor.css
+Disallow: /404.shtml
+Disallow: /pages/technical_works.html
+Disallow: /pages/page_constructor.html
+Disallow: /css/page_constructor.css
 Allow:
 Sitemap: https://estart.pro/sitemap.xml
