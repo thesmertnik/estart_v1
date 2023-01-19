@@ -272,7 +272,7 @@ a {
   text-decoration: none;
 }
 .et-hero-tabs{
-  background-image: url("../img/PhototForPages/mainfonestart.webp");
+  background-image: url("../img/PhototForPages/mainfonestart.webp") data-bg="/images/image.jpg" data-bg-webp="/images/image.webp";
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
