@@ -6,22 +6,39 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document_1</title>
+  <style>
+    form{
+      width: 400px;
+      height: 520px;
+      background-color: rgba(36, 46, 49, 0.37);
+      align-self: center;
+
+      border-radius: 20px;
+      box-shadow: #4e5664;
+    }
+    input{
+      border-radius: 8px;
+      height: 23px;
+      border: none;
+      background-color: rgba(57, 64, 67, 0.89);
+      opacity: 1.56;
+      margin: 10px 0 auto;
+    }
+    input[placeholder]{
+      color: #FFFFFF;
+    }
+  </style>
 </head>
 <body>
 
 
-<script>
-
-
-outer: for (let i = 0; i < 3; i++){
-  for (let j = 0; j < 3; j++){
-    let input = prompt(`Значение на координатах (${i},${j})`, '');
-
-    if (!input) break outer;
-  }
-}
-  alert('Готово!')
-</script>
+<form method="post">
+  <input type="text" name="user_name" size="35" maxlength="56" placeholder="Введите Имя:">
+  <input type="text" name="user_name" size="35" maxlength="56" placeholder="Ваша почта:">
+  <input type="text" name="user_name" size="35" maxlength="56" placeholder="Введите пароль:">
+  <input type="text" name="user_name" size="35" maxlength="56" placeholder="Повторите пароль:">
+  <p>&nbsp;</p>
+</form>
 
 
 

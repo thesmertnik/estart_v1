@@ -26,7 +26,8 @@
 
 </head>
 
-<body>
+<body onload="onload(Event)">
+
 
 <section class="et-hero-tabs">
   <!--<header class = "header">
@@ -66,9 +67,12 @@
     </h2>
     <ul>
       <li><a href="index.html">Главная</a>
-      <li><a href="pages/services.html">Услуги</a>
+      <li><a href="technical_works.html">Услуги</a>
         <!--<li><a href="#3">О нас</a>-->
       <li><a href="pages/contacts.html">Контакты</a></li>
+
+      <!--<li><a href="pages/repair_starter.html">Ремонт стартера</a></li>
+      <li><a href="pages/repair_generator.html">Ремонт генератора</a></li>-->
     </ul>
     <ul style="padding-top: 100px">
       <li><a href="tel:+375336076531">+375(33)607-65-31</a>
@@ -129,7 +133,7 @@
      </div>
      <div class="block">
        <div class="img img_sto"></div>
-       <h2>Стационарный ремонт</h2>
+       <h2>СТО</h2>
        <div class="service">
          <p>
            Ремонт генератора, стартера. <br>
@@ -428,9 +432,32 @@
     </g>
   </svg>
 </a>
+  <script>
+    function CookiesDelete() {
+      let cookies = document.cookie.split(";");
+      for (let i = 0; i < cookies.length; i++) {
+        let cookie = cookies[i];
+        let eqPos = cookie.indexOf("=");
+        let name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+        document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;";
+        document.cookie = name + '=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+      }
+    }
+  </script>
+<script>
+  function CookiesDelete() {
+    let cookies = document.cookie.split(";");
+    for (let i = 0; i < cookies.length; i++) {
+      let cookie = cookies[i];
+      let eqPos = cookie.indexOf("=");
+      let name = eqPos > -1 ? cookie.substring(0, eqPos) : cookie;
+      document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;";
+      document.cookie = name + '=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    }
+  }
+</script>
 
-
-  <script src="js/jquery-2.2.4.min.js"></script>
+  <script src="js/jquery-1.12.4.min.js"></script>
   <script src="js/main.js"></script>
 
 <!-- Yandex.Metrika counter -->
@@ -455,16 +482,14 @@
 <!-- Google tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-67DPMVGSDF">
 </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0E7EK9F1CY"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-67DPMVGSDF');
+  gtag('config', 'G-0E7EK9F1CY');
 </script>
-
-
-
 </body>
-
 </html>

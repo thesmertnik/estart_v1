@@ -40,30 +40,12 @@ article {
   text-align: center;
 }
 
-header {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
 
-footer {
-  font-size: 14px;
-  text-align: center
-}
 
 p {
   margin-bottom: 16px;
 }
 
-hr {
-  margin: 22px 0;
-  height: 1px;
-  border: 0;
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  background-image: linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
 
 h1,
 h2 {
@@ -506,30 +488,7 @@ body {
 }
 /*START*/
 
-.main_nav{
 
-  text-align: center;
-  align-content: center;
-  align-self: center;
-  align-items: center;
-
-
-  min-height: 100vh;
-  min-width: 100vw;
-  width: 100%;
-  height: auto;
-
-  background-image: url("../../img/services/field_repair_e.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.main_nav h1{
-  color: #ffffff;
-}
-.main_nav h1:first-letter{
-  color: #ff0000;
-}
 
 /*nav*/
 .navbar {
@@ -583,11 +542,3 @@ body {
 }
 
 
-
-.first_block{
-  min-height: 100vh;
-  min-width: 100vw;
-
-  width: 100%;
-  height: auto;
-}

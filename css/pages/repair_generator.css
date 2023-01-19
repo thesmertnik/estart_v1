@@ -548,3 +548,49 @@ body {
 }
 
 /*START*/
+.first{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+
+  min-height: 40vh;
+  max-height: 40vh;
+
+  min-width: 100vw;
+  width: auto;
+
+  background-image: url("../../img/services/depositphotos_7401822-stock-photo-car-generator.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.first h1{
+  margin: 0 auto;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.first h1 p a{
+  color: #ff0000;
+}
+.second{
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  height: auto;
+  width: auto;
+
+
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+
+}
+.second p{
+ margin: 0 auto;
+}

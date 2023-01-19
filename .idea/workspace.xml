@@ -4,10 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b90ac6d-5efd-4031-abee-82f520bf7211" name="Changes" comment="v.0.0.5.8.2">
-      <change afterPath="$PROJECT_DIR$/img/background-image_tab_react.webp" afterDir="false" />
+    <list default="true" id="3b90ac6d-5efd-4031-abee-82f520bf7211" name="Changes" comment="v.0.0.6.1">
+      <change afterPath="$PROJECT_DIR$/css/pages/repair_generator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/pages/repair_starter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/depositphotos_31401875-stock-photo-mechanic-restores-a-generator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/depositphotos_7401822-stock-photo-car-generator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/repair_generator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/repair_starter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BETA/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/BETA/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/page_constructor.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/page_constructor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/services/field_repair.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/services/field_repair.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/page_constructor.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page_constructor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/services/field_repair.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services/field_repair.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +46,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="2J8zWQzmoLkqNvEOrf35j8Jh3ef" />
   <component name="ProjectLevelVcsManager">
@@ -110,7 +127,11 @@
       <workItem from="1673971216475" duration="8274000" />
       <workItem from="1674043743077" duration="6136000" />
       <workItem from="1674060662573" duration="10667000" />
-      <workItem from="1674157358786" duration="2843000" />
+      <workItem from="1674157358786" duration="3828000" />
+      <workItem from="1674479746892" duration="10573000" />
+      <workItem from="1674573574355" duration="1274000" />
+      <workItem from="1674666158208" duration="1645000" />
+      <workItem from="1674845500439" duration="775000" />
     </task>
     <task id="LOCAL-00001" summary="v.0.0.1">
       <created>1671474803444</created>
@@ -322,7 +343,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674159856259</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="v.0.0.5.9">
+      <created>1674160246298</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1674160246298</updated>
+    </task>
+    <task id="LOCAL-00032" summary="v.0.0.6">
+      <created>1674160432992</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1674160432992</updated>
+    </task>
+    <task id="LOCAL-00033" summary="v.0.0.6.1">
+      <created>1674160885194</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1674160885194</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +397,9 @@
     <MESSAGE value="v.0.0.5.8" />
     <MESSAGE value="v.0.0.5.8.1" />
     <MESSAGE value="v.0.0.5.8.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.0.0.5.8.2" />
+    <MESSAGE value="v.0.0.5.9" />
+    <MESSAGE value="v.0.0.6" />
+    <MESSAGE value="v.0.0.6.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.0.0.6.1" />
   </component>
 </project>
