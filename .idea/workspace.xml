@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b90ac6d-5efd-4031-abee-82f520bf7211" name="Changes" comment="v.0.0.5.8.2">
-      <change afterPath="$PROJECT_DIR$/img/background-image_tab_react.webp" afterDir="false" />
+    <list default="true" id="3b90ac6d-5efd-4031-abee-82f520bf7211" name="Changes" comment="v.0.0.6.3 (test_delete_cookies_1)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -322,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674159856259</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="v.0.0.6.3 (test_delete_cookies_1)">
+      <created>1674846588501</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1674846588501</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +361,8 @@
     <MESSAGE value="v.0.0.5.8" />
     <MESSAGE value="v.0.0.5.8.1" />
     <MESSAGE value="v.0.0.5.8.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.0.0.5.8.2" />
+    <MESSAGE value="v.0.0.6.1" />
+    <MESSAGE value="v.0.0.6.3 (test_delete_cookies_1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.0.0.6.3 (test_delete_cookies_1)" />
   </component>
 </project>
